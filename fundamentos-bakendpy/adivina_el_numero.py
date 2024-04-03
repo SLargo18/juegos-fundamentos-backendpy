@@ -27,7 +27,7 @@ def adivina_numero_computadora():
     intentos = 0
 
     print("¡Bienvenido al juego de adivinar el número!")
-    print("Piensa en un número entre 1 y 100, y yo intentaré adivinarlo.")
+    print("Piensa en un número entre 1 y 10, y yo intentaré adivinarlo.")
 
     while True:
         intento = random.randint(rango_inferior, rango_superior)
